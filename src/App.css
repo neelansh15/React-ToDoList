@@ -1,3 +1,9 @@
+@media only screen and (max-width: 767px){
+  body{
+    font-size: 12px
+  }
+}
+
 .app{
   min-height: 100vh;
   background: rgb(104, 206, 209);
@@ -24,7 +30,7 @@
 
 .card{
   min-height: 80vh;
-  max-width: 50vw;
+  max-width: 80vw;
   background-color: white;
   padding: 2rem;
   display: flex;
@@ -32,7 +38,7 @@
 }
 
 .card h2{
-  font-size: 1.1rem;
+  font-size: 1.1em;
   color: #685c5c;
   margin-bottom: 1rem;
 }
@@ -45,10 +51,15 @@
   align-items: center;
 
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo:hover{
+  background-color: #d3d3d3;
 }
 
 .todo h1{
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .todo i{
