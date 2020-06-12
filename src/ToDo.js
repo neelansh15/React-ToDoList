@@ -1,8 +1,11 @@
 import React from 'react'
 
-function ToDo(){
+function ToDo({title, completed}){
     return(
-        <p>ToDo</p>
+        <div className="todo">
+            <h1>{ title }</h1>
+            <span>{ completed ? "Yay" : "Nay"}</span>
+        </div>
     )
 }
 

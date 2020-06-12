@@ -36,3 +36,14 @@
   color: #685c5c;
   margin-bottom: 1rem;
 }
+
+.todo{
+  background-color: #e4e4e4;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo h1{
+  font-size: 1.5rem;
+}
