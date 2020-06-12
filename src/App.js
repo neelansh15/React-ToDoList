@@ -8,18 +8,22 @@ function App(){
   // eslint-disable-next-line
   const [todos, setTodos] = useState([
     {
+      id: 1,
       title: "Learn Vue",
-      completed: false
+      completed: true
     },
     {
+      id: 2,
       title: "Learn React",
       completed: false
     },
     {
+      id: 3,
       title: "Learn Nuxt",
       completed: false
     },
     {
+      id: 4,
       title: "Rule",
       completed: false
     },
@@ -33,7 +37,7 @@ function App(){
         <div className="todos">
           {
             todos.map(todo => (
-              <ToDo title={todo.title} completed={todo.completed} />
+              <ToDo key={todo.id} title={todo.title} completed={todo.completed} />
             ))
           }
         </div>

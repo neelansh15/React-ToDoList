@@ -42,8 +42,15 @@
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
 }
 
 .todo h1{
   font-size: 1.5rem;
+}
+
+.todo i{
+  font-size: larger;
 }
