@@ -1,7 +1,6 @@
-# React ToDo list
+# React ToDo list  
+Responsive ToDo list application made in React.
 ![React ToDo list Application](Screenshot.png)
-
-
 
 ## Available Scripts
 
