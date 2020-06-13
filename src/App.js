@@ -33,14 +33,13 @@ function App(){
 
   function updateValue(e){
     setValue(e.target.value)
-    // console.log(value)
   }
 
   function addTodo(e){
     e.preventDefault()
     if(value != "" || value != null){
       todos.push({
-        id: Math.round(Math.random() * 100),
+        id: Math.round(Math.random() * 1000),
         title: value,
         completed: false
       })
