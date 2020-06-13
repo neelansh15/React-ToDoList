@@ -5,7 +5,6 @@ function ToDo({title, completed}){
     const [complete, setComplete] = useState(completed)
 
     function toggleComplete(){
-        console.log(complete)
         setComplete(!complete)
     }
 

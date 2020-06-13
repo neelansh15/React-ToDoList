@@ -6,9 +6,8 @@
 
 .app{
   min-height: 100vh;
-  background: rgb(104, 206, 209);
-
-  display: flex;
+  /* background: rgb(104, 206, 209); */
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -64,4 +63,25 @@
 
 .todo i{
   font-size: larger;
+}
+
+.todoinput{
+  margin: 1em 0;
+  width: 100%;
+  display: flex;
+}
+
+.todoinput input{
+  width: 100%;
+  padding: 0.75em;
+  font-weight: bold;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.todoinput button{
+  width: 20%;
+  cursor: pointer;
+  border: none;
+  text-align: center;
 }
